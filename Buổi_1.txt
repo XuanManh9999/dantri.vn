@@ -1,0 +1,16 @@
++, Cài các tiện ích. -> OK 
++, Tìm hiểu cấu trúc một trang web {header, nav, content, footer}. -> OK 
++, Khái niệm inline, block, inline-block. -> OK 
++, Cách comment. Cách tìm hiểu tải liệu. Trình duyệt sẽ không thực thi code được comment. Giúp 
+ghi chú. -> OK 
+{H1->H6 {OK}, 
+p -> OK, span -> OK, 
+b -> OK , 
+strong -> OK, i(chữ nghiêng), sub -> OK, sup -> OK, small -> OK, div -> OK, 
+header -> OK, footer -> OK, main -> OK, section -> OK, pre -> OK, img -> OK, input ->, ul, li}
+{tìm hiểu về ngữ nghĩa các thẻ trong html}
++, Một số thuộc tính cơ bản {style, title, text-align, color, background-color}.
++, Giao bài tập về nhà.
+Cắt HTML trang web sau
+https://dantri.com.vn/xa-hoi/thu-tuong-dam-bao-dieu-kien-de-trien-khai-che-do-tien-luong-moi-tu-17-20240403111932408.htm
+

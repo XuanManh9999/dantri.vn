@@ -1,0 +1,28 @@
++, Kiểm tra bài tập, ôn lại kiến thức bài trước. -> OK 
++, Giới thiệu về CSS -> OK . 
++, Giới thiệu các cách css {inline -> {Là cách viết style thẳng vào thẻ mở của html}, internal -> {Viết thẻ 
+thẻ đống mở style ở trong thẻ head, external -> {Tạo một file css rồi dùng thẻ link liên kết tới file mình đã tạo}}.
+Class {.tên class}, id {#tên id} -> OK 
+
+Độ ưu tiên các loại css.
+{
+CSS inline:  1000
+Css internal: 100 
+Css external: 10
+}
+Độ ưu tiên của class và id: 
+{
+  {tag sẽ có độ ưu tiên tháp nhất
+  ID sẽ có độ ưu tiên cao hơn class.
+  Class sẽ có độ ưu tiên thấp hơn
+
+}
+=> Với các thẻ hoặc kiểu css, id, class cùng độ ưu tiên với nhau thì cái nào viết mới hơn sẽ được ưu tiên hơn.
+
++, Giới thiệu một số thuộc tính cơ bản trong CSS
+{font-size {Chỉnh kích thước chữ}, font-family {quy định kiểu chữ cho trang web}, color -> Chỉnh màu sắc, 
+backgroud-color -> Nền, background-image -> OK, font-weight, pading, margin, border...}
++, Giới thiêu về flex-box, grid-system
++, Bài tập về nhà:
+-Luyện tập lại các thuộc tính css đã học.
+-Căn chỉnh lại bài hôm trước.

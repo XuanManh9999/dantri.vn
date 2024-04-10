@@ -1,0 +1,58 @@
++, Kiểm tra bài tập -> OK.
++, Nhắc lại kiến thức -> OK. 
+
++, Giới thiệu về đơn vị trong css.
+đơn vị tương đối:
+px: trên bất  kì thiết bị nào nó cũng sẽ luôn kích thước của nó.
+đơn vị tuyệt đối:
+%: nó sẽ ăn theo thằng cha gần nhất chứa thuộc tính font-size. Nếu không có nó sẽ ăn theo định dạng mặc định của 
+trình.
++, padding, border, margin
+padding: giúp tạo một lớp đệm cho phần tử. (Làm tắc kích thước của phần tử)
+border: tạo viền cho phần tử. (Làm tăng kích thước của phần tử)
+{ background-color: red;
+    border-width: 5px;
+    border-color: #fff;
+    border-style: dashed;
+    /* solid */
+    border: 5px solid #fff;
+}
+margin: tạo khoảng cách giữa các phần tử (nằm ngoài không làm tăng kích thược)
+
+
+--- FLEX_BOX
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
++,flex-direction: quyết định chiều hiển thị (main, cross).
++, Giới thiệu, và học về flex-box
+Flex-box xử lý bố cục theo hai chiều đó là chiều ngang và dọc.
+- Có 2 trục là trục main (trục ngang), cross(trục dọc) (quyết định bởi flex-direction} , 
+- Flex-container, Flex-item: khi một container được xét display: flex; thì nó sẽ trở thành flex container.
+- Và các thằng con cấp 1 của nó sẽ trở thành flex-item.
+Các thuộc tính của flex-container
+{
+ display: flex; tạo bố cục flex-container
+ flex-wrap: quyết định xem phần tử đó có xuống hàng không khi chiều ngang vượt quá.
+ flex-flow: flex-direction flex-wrap;
+ justify-content: hướng hiển thị; Giúp căn chỉnh các flex-item theo trục main.
+ align-items: hưởng hiển thị thị; Giúp căn chỉnh cách flex-item theo truc cross
+
+}
+Các thuộc tính của flex-item.
++, Giới thiêu về khoảng không khả dụng.
+Khoảng không gian khả dụng chính là khoản không gian của flex-container theo trục main.
+{
+flex-basis: kích thược item (100px); Giúp xác định các kích thước của flex-item.	 
+flex-grow: Đơn vị (1, 2, 3);Giúp làm tăng kích thước của flex-item theo trục main tức là các phần tử sẽ chiếm lấy 
+khoảng không khả dụng nếu có.
+flex-shrink: Đơn vị;Chỉ khả dụng khi khoảng không gian khả dụng là âm. Tức là flex-item nằm tràn ra ngoài 
+container.
+Thuộc tính viết tắt: flex: flex-grow flex-shrink flex-basis;
+order: 1; giúp thay đổi thứ tư hiển thị.
+}
++, Giới thiệu một số cách căn giữa một phần tử
++, Giao bài tập về nhà.
+https://app.diagrams.net/
