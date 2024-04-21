@@ -14,3 +14,4 @@ header -> OK, footer -> OK, main -> OK, section -> OK, pre -> OK, img -> OK, inp
 Cắt HTML trang web sau
 https://dantri.com.vn/xa-hoi/thu-tuong-dam-bao-dieu-kien-de-trien-khai-che-do-tien-luong-moi-tu-17-20240403111932408.htm
 
+POM
