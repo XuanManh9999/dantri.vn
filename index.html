@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./font.css" />
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+    <link rel="stylesheet" href="./src/styles/font.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -327,6 +327,66 @@
           </div>
         </div>
       </footer>
+      <div class="container-boxmodal">
+        <div class="boxmodal">
+          <div class="container-boxmodal-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <form action="">
+            <div class="boxmodal_header">
+              <img
+                src="https://cdnweb.dantri.com.vn/dist/c7b827391b2f30b6fbaf.png"
+                alt="Img banner"
+              />
+            </div>
+            <div class="boxmodal_content">
+              <div class="boxmodal_content_handle">
+                <button class="boxmodal_content_handle--login">
+                  Đăng nhập
+                </button>
+                <button class="boxmodal_content_handle--signup">Đăng ký</button>
+              </div>
+              <p class="boxmodal_content--title">
+                với các tài khoản mạng xã hội
+              </p>
+              <div class="boxmodal_content--href">
+                <button class="boxmodal_content--href--item1">
+                  <img
+                    src="https://cdnweb.dantri.com.vn/dist/602a5aca41bdeb805571.svg"
+                    alt="Google"
+                  />
+                  <span>Google</span>
+                </button>
+                <button class="boxmodal_content--href--item2">
+                  <img
+                    src="https://cdnweb.dantri.com.vn/dist/05804407650f4479d9ef.svg"
+                    alt="Facebook"
+                  />
+                  <span>Facebook</span>
+                </button>
+              </div>
+              <div class="boxmodal_content--or">
+                <span>Hoặc</span>
+              </div>
+              <div class="boxmodal_content--fill">
+                <div class="boxmodal_content--fill__item">
+                  <label for="">Email</label><br />
+                  <input type="text" placeholder="Email" />
+                </div>
+                <div class="boxmodal_content--fill__item">
+                  <label for="">Mật khẩu</label><br />
+                  <input type="password" placeholder="Mật khẩu" />
+                </div>
+              </div>
+              <p class="boxmodal_content__forgot-password">
+                <a href="">Quên mật khẩu</a>
+              </p>
+              <button class="boxmodal_content--login">Đăng nhập</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
+    <script src="./src/js/index.js"></script>
   </body>
 </html>
